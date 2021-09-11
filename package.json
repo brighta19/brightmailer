@@ -2,8 +2,9 @@
   "name": "brightmailer",
   "version": "1.0.0",
   "description": "This project was created from following this [LogRocket tutorial](https://blog.logrocket.com/send-emails-nodejs-nodemailer/).",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/brighta19/brightmailer#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "nodemailer": "^6.6.3",
     "nodemailer-express-handlebars": "^4.0.0"
   }

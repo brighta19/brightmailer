@@ -1,0 +1,24 @@
+{
+  "name": "brightmailer",
+  "version": "1.0.0",
+  "description": "This project was created from following this [LogRocket tutorial](https://blog.logrocket.com/send-emails-nodejs-nodemailer/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brighta19/brightmailer.git"
+  },
+  "keywords": [],
+  "author": "Bright A. <bright.amoateng150@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brighta19/brightmailer/issues"
+  },
+  "homepage": "https://github.com/brighta19/brightmailer#readme",
+  "dependencies": {
+    "nodemailer": "^6.6.3",
+    "nodemailer-express-handlebars": "^4.0.0"
+  }
+}

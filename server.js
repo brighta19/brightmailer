@@ -34,7 +34,10 @@ let mailOptions = {
     context: {
         name: "Random Person",
         company: "BrightMailer"
-    }
+    },
+    attachments: [{ filename: "windows_anniversary.jpg", path: "./attachments/windows_anniversary.jpg" }],
+    // cc: "an_email@address.com",
+    // bcc: "another_email@address.com"
 };
 
 // trigger the sending of the email
